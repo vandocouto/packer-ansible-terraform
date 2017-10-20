@@ -19,7 +19,7 @@ variable "asg_max_size"           { default = 3 }
 variable "asg_des_size"           { default = 1 }
 
 /*ALB Settings*/
-Porta utilizada pelo ALB. variável usada para definição das regras de security group
+# Porta utilizada pelo ALB. variável usada para definição das regras de security group
 variable "lb_listen_port" {
     default = "80"
 }
